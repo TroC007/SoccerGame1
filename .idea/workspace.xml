@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6dad981-5af9-46b9-8bb9-bed1c0bfd921" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Runner/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Runner/PlayersTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runner/Draw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runner/JokerPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner/PlayersTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner/PlayersTeam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.PlayersTeam.executor": "Run",
-    "Application.Runner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PlayersTeam.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.PlayersTeam">
     <configuration name="PlayersTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner.PlayersTeam" />

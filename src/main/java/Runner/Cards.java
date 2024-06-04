@@ -1,79 +1,46 @@
 package Runner;
 
-import java.util.Random;
+import java.util.ArrayList;
 
 public class Cards {
-    public int getDefending() {
-        return defending;
-    }
-
-    public void setDefending(int defending) {
-        this.defending = defending;
-    }
-
-    public int getAgile() {
-        return agile;
-    }
-
-    public void setAgile(int agile) {
-        this.agile = agile;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-    public int getShooting() {
-        return shooting;
-    }
-
-    public void setShooting(int shooting) {
-        this.shooting = shooting;
-    }
-
-    public int getDribbling() {
-        return dribbling;
-    }
-
-    public void setDribbling(int dribbling) {
-        this.dribbling = dribbling;
-    }
-
-    public int getPassing() {
-        return passing;
-    }
-
-    public void setPassing(int passing) {
-        this.passing = passing;
-    }
-
-    public int getTackling() {
-        return tackling;
-    }
-
-    public void setTackling(int tackling) {
-        this.tackling = tackling;
-    }
-
-    private int defending; //parametr bramkarza i piłkarza z pola
-    private int agile;  //parametr bramkarza
-    private int height; //parametr bramkarza
-    private int shooting; //parametr piłkarza z pola
-    private int dribbling; //parametr piłkarza z pola
-    private int passing; //parametr piłkarza z pola
-    private int tackling; //parametr piłkarza z pola
-
-    public Cards(int defending, int agile, int height, int shooting, int dribbling, int passing, int tackling) {
-        this.defending = defending;
-        this.agile = agile;
-        this.height = height;
-        this.shooting = shooting;
-        this.dribbling = dribbling;
-        this.passing = passing;
-        this.tackling = tackling;
+    Draw draw = new Draw();
+    ArrayList<Integer> bramkarz = draw.drawKeeper();
+    ArrayList<Integer> obronca1 = draw.drawDefender();
+    ArrayList<Integer> obronca2 = draw.drawDefender();
+    ArrayList<Integer> obronca3 = draw.drawDefender();
+    ArrayList<Integer> obronca4 = draw.drawDefender();
+    ArrayList<Integer> pomocnik1 = draw.drawMidfielder();
+    ArrayList<Integer> pomocnik2 = draw.drawMidfielder();
+    ArrayList<Integer> pomocnik3 = draw.drawMidfielder();
+    ArrayList<Integer> pomocnik4 = draw.drawMidfielder();
+    ArrayList<Integer> napastnik1 = draw.drawAttacker();
+    ArrayList<Integer> napastnik2 = draw.drawAttacker();
+    public Cards() {
+        ArrayList<ArrayList<Integer>> playerCards = new ArrayList<>();
+        playerCards.add(bramkarz);
+        playerCards.add(obronca1);
+        playerCards.add(obronca2);
+        playerCards.add(obronca3);
+        playerCards.add(obronca4);
+        playerCards.add(pomocnik1);
+        playerCards.add(pomocnik2);
+        playerCards.add(pomocnik3);
+        playerCards.add(pomocnik4);
+        playerCards.add(napastnik1);
+        playerCards.add(napastnik2);
+        ArrayList<ArrayList<Integer>> computerCards = new ArrayList<>();
+        computerCards.add(bramkarz);
+        computerCards.add(obronca1);
+        computerCards.add(obronca2);
+        computerCards.add(obronca3);
+        computerCards.add(obronca4);
+        computerCards.add(pomocnik1);
+        computerCards.add(pomocnik2);
+        computerCards.add(pomocnik3);
+        computerCards.add(pomocnik4);
+        computerCards.add(napastnik1);
+        computerCards.add(napastnik2);
     }
 }
+
+
